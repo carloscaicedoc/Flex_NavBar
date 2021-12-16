@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    width: 50%;
+    height: 66px;
+    background-color: #353535;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0%;
+    align-items: center;
+}
+
+.nav-title {
+    margin-left: 15px;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn {
+    height: 28px;
+    width: 90px;
+    background-color: rgb(38, 194, 134);
+    color: white;
+    border: none;
+    font-size: 15px;
+    box-shadow: 4px 4px black;
+}
+
